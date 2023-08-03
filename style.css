@@ -1,0 +1,70 @@
+h1 {
+    color: brown;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    height: 400px;
+    max-width: 600px;
+    background-color: rgb(165, 62, 62);
+    margin: 20px auto;
+    border-radius: 40px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+#passwordBox {
+    width: 90%;
+    height: 10%;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 90%;
+    margin: auto;
+    background-color: burlywood;
+    padding: 10px 80px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    border-color: black;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgb(224, 174, 109);
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 50px;
+    margin: 10px auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"] {
+    accent-color: white;
+}
